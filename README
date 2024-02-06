@@ -1,0 +1,17 @@
+# Nietzsche NLP Project
+
+Performing NLP tasks on books written by Friedrich Nietzsche using R.
+
+## Overview
+
+This project fetches five books by Friedrich Nietzsche from Project Gutenberg, converts them into data frames, and performs basic NLP tasks to find correlations and meaningful associations between the books.
+
+## Requirements
+
+- R (>= 3.5.0)
+- R packages: gutenbergr, tm, tidytext, dplyr, ggplot2
+
+Install the required packages using:
+
+```R
+install.packages(c("gutenbergr", "tm", "tidytext", "dplyr", "ggplot2"))
